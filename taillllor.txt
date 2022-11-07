@@ -1,5 +1,0 @@
-news 
-
-changed
-
-new text
