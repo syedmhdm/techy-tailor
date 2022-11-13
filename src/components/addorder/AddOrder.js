@@ -1,13 +1,17 @@
-import Form from "react-bootstrap/Form";
-import styles from "./TailorForm.module.css";
+import styles from "./AddOrder.module.css";
 
-const TailorForm = (props) => {
+const AddOrder = () => {
   return (
     <form className={styles.form}>
       <div className={styles.formRow}>
         <div className={styles.labelAndInputDiv}>
-          <label htmlFor='firstname'>First Name</label>
-          <input name='firstname' type={"text"} id={"firstname"} />
+          <label htmlFor='tailortype'>Select Tailor</label>
+          <select defaultValue={"mens"} name='tailortype' id='tailortype'>
+            <option value={"ladies"}>ladies tailor</option>
+            <option value={"mens"}>mens tailor</option>
+            <option value={"kids"}>kids tailor</option>
+            <option value={"all"}>all the above</option>
+          </select>
         </div>
         <div className={styles.labelAndInputDiv}>
           <label htmlFor='lastname'>Last Name</label>
@@ -83,4 +87,4 @@ const TailorForm = (props) => {
   );
 };
 
-export default TailorForm;
+export default AddOrder;

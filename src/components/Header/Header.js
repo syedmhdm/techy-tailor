@@ -8,7 +8,7 @@ const Header = (props) => {
         <img className={styles.headerLogo} src={logo} alt='logo' />
       </div>
       <div className={styles.headerItem}>
-        <h1>Techy Tailor</h1>
+        <h1>Modiste's Stitch</h1>
       </div>
     </header>
   );
