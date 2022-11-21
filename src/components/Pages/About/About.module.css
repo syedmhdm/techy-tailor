@@ -1,0 +1,51 @@
+.about {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.historyDiv {
+  margin-top: 2rem;
+  margin-left: 4rem;
+  display: flex;
+  gap: 2.5rem;
+}
+
+.testimonialDiv {
+  margin-top: 5rem;
+
+}
+
+.abtImg {
+  width: 100%;
+}
+
+.imgDiv {
+  max-width: 300px;
+  min-width: 200px;
+  /* flex-basis: 400px; */
+}
+
+.historyHeading {
+  flex-direction: column;
+}
+
+.paraDiv {
+  margin-right: 2rem;
+  max-width: 60%;
+  /* max-width: 900px; */
+  line-height: 2;
+  font-size: 18px;
+  text-align: left;
+}
+
+@media (max-width: 1200px) {
+
+
+  .paraDiv {
+    line-height: 1.8;
+    font-size: 16px;
+  }
+
+}

@@ -1,0 +1,58 @@
+.profileRow {
+  display: flex;
+}
+
+.form {
+  margin: 50px;
+  flex-basis: 900px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.labelAndInputDiv {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.btnDiv {
+  margin-top: 2rem;
+}
+
+.formRow {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 1rem;
+}
+
+.positionRelative {
+  position: relative;
+}
+
+.filenamediv {
+  border: solid 1px rgb(223, 223, 223);
+  padding: .2rem;
+  border-radius: 6px;
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 2.05rem;
+  bottom: 0;
+}
+
+
+
+.fileInput {
+  background-color: white;
+  height: 2.05rem;
+  z-index: 1;
+  opacity: 0;
+
+}
+
+.otherlinksdiv {
+  margin-top: 2rem;
+  display: flex;
+  gap: 3rem;
+
+}

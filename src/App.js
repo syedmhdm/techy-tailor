@@ -1,8 +1,6 @@
-import Navigation from "./components/Navigation/Navigation";
-import TailorForm from "./components/TailorForm/TailorForm";
 import Stack from "react-bootstrap/Stack";
-import Header from "./components/Header/Header";
-import Sidebar from "./components/Sidebar/Sidebar";
+import Header from "./components/UI/Header/Header";
+import Sidebar from "./components/UI/Sidebar/Sidebar";
 import "./App.css";
 import { Link, Outlet, Route, Router, Routes } from "react-router-dom";
 // WCMG wood cloth metal glass
