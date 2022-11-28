@@ -21,10 +21,10 @@ const About = () => {
             demand and tight deadlines: That's how I would describe Jeramy and
             his team at The Lorem Ipsum Company. Professional, responsive, and
             able to keep up with ever-changing demand and tight deadlines:
-            That's how I would describe Jeramy and his team at The Lorem Ipsum
-            Company. Professional, responsive, and able to keep up with
+            That's how I would describe Jeramy and his team at The Modiste's
+            Stitch Company. Professional, responsive, and able to keep up with
             ever-changing demand and tight deadlines: That's how I would
-            describe Jeramy and his team at The Lorem Ipsum Company.
+            describe Jeramy and his team at The Modiste's Stitch Company.
             Professional, responsive, and able to keep up with ever-changing
             demand and tight deadlines
           </p>
